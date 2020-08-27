@@ -18,9 +18,9 @@ module.exports={
         ]
       },
       {
-        // 问题:处理不了html中的img图片
+        // 问题:只能处理样式中的资源,处理不了html中的img图片
         // 处理图片资源
-        test:/\.(jpg|png|fig)$/,
+        test:/\.(jpg|png|gif)$/,
         // 使用一个loader
         // 下载url-loader file-loader (依赖关系)
         loader:'url-loader',

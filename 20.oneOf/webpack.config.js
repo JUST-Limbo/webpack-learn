@@ -105,7 +105,7 @@ module.exports = {
         },
         {
           test: /\.html$/,
-          loader: 'html-loder'
+          loader: 'html-loader'
         },
         {
           exclude: /\.(js|css|less|html|jpg|png|gif)/,
